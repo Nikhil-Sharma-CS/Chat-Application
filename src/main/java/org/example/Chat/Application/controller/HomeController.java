@@ -26,7 +26,6 @@ public class HomeController {
     @GetMapping("/chat")
     public ResponseEntity<OpenAIResponse>  chat(@RequestParam String prompt){
         OpenAIRequest request=new OpenAIRequest(model, prompt);
-        System.out.println(HttpStatus.OK.value());
         return ResponseEntity.status(HttpStatus.OK).body(restTemplate.postForObject(apiURL, request, OpenAIResponse.class));
     }
 

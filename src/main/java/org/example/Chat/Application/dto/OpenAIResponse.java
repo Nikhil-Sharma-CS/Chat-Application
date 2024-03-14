@@ -11,12 +11,12 @@ import java.util.List;
 @NoArgsConstructor
 public class OpenAIResponse {
 
-    private List<Response> responses;
+    private List<Choices> choices;
 
     @Data
     @AllArgsConstructor
     @NoArgsConstructor
-    public static class Response {
+    public static class Choices {
 
         private int index;
         private Message message;
