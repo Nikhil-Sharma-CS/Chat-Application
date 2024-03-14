@@ -47,7 +47,7 @@ I'm a full stack developer apprentice at Geekster. I have knowledge of Java, OOP
 
 - Below is the screenshot of how you can send request and the type of response received from OpenAI model.
 
-![Screenshot (19)](https://github.com/Nikhil-Sharma-CS/Chat-Application/assets/72157075/d154a3c5-24a2-4371-9aa1-7e00cafd2b6c)
+![Screenshot (20)](https://github.com/Nikhil-Sharma-CS/Chat-Application/assets/72157075/ba95dd59-eb22-4500-ad9d-79ea8f68fb17)
 
 
 
